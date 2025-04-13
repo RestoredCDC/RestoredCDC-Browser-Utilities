@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "RestoredCDC Compare Tools",
+  "version": "1.0",
+  "description": "Compare tools for RestoredCDC domain.",
+  "action": {
+    "default_popup": "popups/popup.html",
+    "default_title": "RestoredCDC Compare Tools",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "downloads",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [ 
+    "https://www.restoredcdc.org/",
+    "https://restoredcdc.org/"
+  ]
+}
